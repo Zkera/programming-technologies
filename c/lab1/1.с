@@ -1,0 +1,32 @@
+/*
+****************************************************
+*** Здесь не совсем правильно, строки с 22 по 24 ***
+*** должны быть одной строкой, по заданию, но пох***
+****************************************************
+*/
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+// Это первый подпункт
+    /*
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("a+b = %d, a/b = %.001f", a+b, (float) a/b);
+    */
+// Это второй подпункт
+    float a = 5, b;
+    int c = 5, d;
+    scanf("%f%d",&b,&d);
+    printf("a=%.2f\tb=%.2f\tc=%d\td=%d\n",a,b,c,d);
+    a = a + b -2;
+    printf("a=%.2f\tb=%.2f\tc=%d\td=%d\n",a,b,c,d);
+    d = (++c) - a + d;
+    printf("a=%.2f\tb=%.2f\tc=%d\td=%d\n",a,b,c,d);
+    a = (float) a/10;
+    c = c/2;
+    b--;
+    printf("a=%.2f\tb=%.2f\tc=%d\td=%d\n",a,b,c,d);
+    d = d* (c + b + a);
+    printf("a=%.2f\tb=%.2f\tc=%d\td=%d\n",a,b,c,d);
+    return 0;
+}
