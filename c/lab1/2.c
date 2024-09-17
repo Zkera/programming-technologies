@@ -18,7 +18,8 @@ printf("x=x-(c+1) : c=%d x=%f \n",c,x);
 c = a/b;
 printf("c= a/b: c=%4d\n",c):
 c= a%b;
-printf("c = a%b : c=%d\n",c);
+// было printf("c = a%b : c=%d\n",c);
+printf("c = a%%b : c=%d\n",c);
 x=5.3;
 y += ((-x-1)/x++);
 printf(" x = %f\t y = %.2f\n\n x = %.0f\t y = %.0f\n ", x - 1, y, x, y- 1);
